@@ -16,8 +16,6 @@ addons:
 language: rust
 
 matrix:
-    edge: true
-    dist: xenial
     allow_failures:
         - env: TASK=clippy TARGET=x86_64-unknown-linux-gnu
     include:
