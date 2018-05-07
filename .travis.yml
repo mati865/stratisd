@@ -1,5 +1,7 @@
 os: linux
 group: edge
+edge: true
+dist: xenial
 
 addons:
     apt:
