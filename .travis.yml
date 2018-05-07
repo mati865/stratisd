@@ -51,7 +51,4 @@ matrix:
               - cd tests/client-dbus
           env: TASK=fmt-travis
 
-branches:
-    only: master
-
 script: make -f Makefile $TASK
